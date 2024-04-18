@@ -40,7 +40,43 @@
   --card-border-rgb: 131, 134, 135;
 }
 
-@media (prefers-color-scheme: dark) {
+
+.evaluation-complete-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Opcional: para ocupar toda la altura de la pantalla */
+}
+
+.graph-container {
+  margin-bottom: 20px; /* Espaciado entre la gráfica y el puntaje */
+}
+
+.score-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.evaluation-button {
+  background-color: #4CAF50; /* Color de fondo */
+  border: none; /* Sin borde */
+  color: white; /* Color del texto */
+  padding: 50px 50px; /* Espacio alrededor del texto */
+  text-align: center; /* Alineación del texto */
+  text-decoration: none; /* Sin subrayado */
+  display: table-column-group; /* Mostrar como bloque en línea */
+  font-size: 16px; /* Tamaño de la fuente */
+  margin: 25px 25px; /* Margen superior e inferior */
+  margin-left: 44%;
+  margin-right: 50%;
+  cursor: pointer; /* Cursor al pasar por encima */
+  border-radius: 50px; /* Radio del borde */
+}
+
+
+@media (prefers-color-scheme: white) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -87,12 +123,15 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  background: linear(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+
+    background-color: #D84E30;
+    
 }
 
 a {
@@ -102,6 +141,51 @@ a {
 
 @media (prefers-color-scheme: dark) {
   html {
-    color-scheme: dark;
+    color-scheme: white;
   }
+}
+
+/* Estilos CSS personalizados para las opciones de las preguntas */
+.question-options {
+  display: flex; /* Usa flexbox para colocar las opciones en una fila */
+  margin-top: 10px;
+}
+
+.option {
+  margin-right: 10px; /* Ajusta el espacio entre las opciones */
+}
+
+
+
+.option label {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilo para cuando el cursor está sobre una opción */
+.option label:hover {
+  background-color: #e0e0e0;
+}
+
+.parrafo{
+  text-align: center; /* Alineación del texto */
+}
+
+.her{
+  
+  border: none; /* Sin borde */
+  color: white; /* Color del texto */
+  padding: 50px 50px; /* Espacio alrededor del texto */
+  text-align: center; /* Alineación del texto */
+  text-decoration: none; /* Sin subrayado */
+  display: table-column-group; /* Mostrar como bloque en línea */
+  font-size: 16px; /* Tamaño de la fuente */
+  margin: 25px 25px; /* Margen superior e inferior */
+  margin-left: 50%;
+  margin-right: 50%;
+  cursor: pointer; /* Cursor al pasar por encima */
+  border-radius: 50px; /* Radio del borde */
 }
