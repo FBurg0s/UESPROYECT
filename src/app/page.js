@@ -455,7 +455,7 @@ const App = () => {
       },
       {
         id: 20,
-        text: 'Hace uso de técnicas financieras permitiendo medir resultados, planificar ajustes y tomar decisiones.',
+        text: '20-Hace uso de técnicas financieras permitiendo medir resultados, planificar ajustes y tomar decisiones.',
         options: [
           { id: 1, text: 'Excelente', correct: true, ponderation: 5 },
           { id: 2, text: 'Muy Bueno', correct: true, ponderation: 4 },
