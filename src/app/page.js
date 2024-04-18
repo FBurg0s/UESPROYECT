@@ -389,7 +389,7 @@ const App = () => {
       },
       {
         id: 14,
-        text: '14-¿Ser o no ser?',
+        text: '14-En qué nivel de efectividad forja metas, planes y actividades coordinándose con quien corresponde para el logro de ellas y del bien común con la institución.',
         options: [
           { id: 1, text: 'Excelente', correct: true, ponderation: 5 },
           { id: 2, text: 'Muy Bueno', correct: true, ponderation: 4 },
@@ -400,7 +400,7 @@ const App = () => {
       },
       {
         id: 15,
-        text: '¿Ser o no ser?',
+        text: 'Mantiene sus emociones y su comportamiento bajo control, incluso durante situaciones de mucha presión',
         options: [
           { id: 1, text: 'Excelente', correct: true, ponderation: 5 },
           { id: 2, text: 'Muy Bueno', correct: true, ponderation: 4 },
@@ -411,7 +411,7 @@ const App = () => {
       },
       {
         id: 16,
-        text: '¿Ser o no ser?',
+        text: '16-Contribuye a que el directorio trabaje como equipo, rescatando la diversidad de opiniones y manejando adecuadamente los conflictos.',
         options: [
           { id: 1, text: 'Excelente', correct: true, ponderation: 5 },
           { id: 2, text: 'Muy Bueno', correct: true, ponderation: 4 },
@@ -422,7 +422,7 @@ const App = () => {
       },
       {
         id: 17,
-        text: '¿Ser o no ser?',
+        text: '17-Maneja los conflictos adecuadamente y toma la iniciativa en la resolución de estos',
         options: [
           { id: 1, text: 'Excelente', correct: true, ponderation: 5 },
           { id: 2, text: 'Muy Bueno', correct: true, ponderation: 4 },
@@ -433,7 +433,7 @@ const App = () => {
       },
       {
         id: 18,
-        text: '¿Ser o no ser?',
+        text: '18-Orienta la planeación emanada por el alto nivel jerárquico, del que efectúa los lineamientos que operan para las diferente rutas de actividades, desarrollo, gestión, estrategias y previsión durante su ejecución.',
         options: [
           { id: 1, text: 'Excelente', correct: true, ponderation: 5 },
           { id: 2, text: 'Muy Bueno', correct: true, ponderation: 4 },
@@ -444,7 +444,7 @@ const App = () => {
       },
       {
         id: 19,
-        text: '¿Ser o no ser?',
+        text: '19-Anticipa con efectividad los posibles cambios al plan a ejecutar  y contribuye a que estos impacten de manera positiva y no negativa a la entidad',
         options: [
           { id: 1, text: 'Excelente', correct: true, ponderation: 5 },
           { id: 2, text: 'Muy Bueno', correct: true, ponderation: 4 },
@@ -455,7 +455,7 @@ const App = () => {
       },
       {
         id: 20,
-        text: '¿Ser o no ser?',
+        text: 'Hace uso de técnicas financieras permitiendo medir resultados, planificar ajustes y tomar decisiones.',
         options: [
           { id: 1, text: 'Excelente', correct: true, ponderation: 5 },
           { id: 2, text: 'Muy Bueno', correct: true, ponderation: 4 },
