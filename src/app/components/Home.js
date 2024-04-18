@@ -10,7 +10,7 @@ const Home = ({ handleEvaluationTypeSelect }) => {
       </div>
       
       <button className="evaluation-button" onClick={() => handleEvaluationTypeSelect('type1')}>HERRAMIENTA GERENCIAL FORMA EN QUE SE ADMINISTRA EL CONOCIMIENTO</button>
-      <button className="evaluation-button" onClick={() => handleEvaluationTypeSelect('type2')}>HERRAMIENTA GERENCIAL ADMINISTRATIVA  SOBRE COMO SE DIRIGE EL CONOCIMIENTO</button>
+      <button className="evaluation-button" onClick={() => handleEvaluationTypeSelect('type2')}>HERRAMIENTA GERENCIAL ADMINISTRATIVA  SOBRE COMO SE GERENCIA EL CONOCIMIENTO</button>
       <button className="evaluation-button" onClick={() => handleEvaluationTypeSelect('type3')}>HERRAMIENTA GERENCIAL ADMINISTRATIVA MANERA COMO SE DIRIGE EL CONOCIMIENTO</button>
       <button className="evaluation-button" onClick={() => handleEvaluationTypeSelect('type4')}>HERRAMIENTA GERENCIAL ADMINISTRATIVA  ESTILOS DE LIDERAZGO EN EL CONOCIMIENTO</button>
       <button className="evaluation-button" onClick={() => handleEvaluationTypeSelect('type5')}>HERRAMIENTA GERENCIAL ADMINISTRATIVA COMO SE GESTIONA DE MANERA EFECTIVA EL CONOCIMIENTO</button>

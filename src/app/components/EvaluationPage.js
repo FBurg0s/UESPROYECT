@@ -12,7 +12,7 @@ const EvaluationPage = ({ questions, totalScore, setTotalScore, handleReturnToHo
     evaluations.push(evaluation);
     localStorage.setItem('evaluations', JSON.stringify(evaluations));
   };
-/*
+
 // Función para limpiar el localStorage
 const clearLocalStorage = () => {
   localStorage.removeItem('evaluations');
@@ -22,7 +22,7 @@ const clearLocalStorage = () => {
 useEffect(() => {
   clearLocalStorage();
 }, []);
-  */
+  
   const getPreviousEvaluations = () => {
     const evaluations = JSON.parse(localStorage.getItem('evaluations')) || [];
     setPreviousEvaluations(evaluations);
@@ -92,7 +92,7 @@ useEffect(() => {
         <>
           <h2 className='her'>Evaluación</h2>
           {questions.map((question, index) => (
-            <div style={{backgroundColor: '#D84E30', margin: '10px 20px', borderRadius: '25px', }}>
+            <div style={{backgroundColor: 'EEE0DE', margin: '10px 20px', borderRadius: '25px', }}>
   <div key={question.id}>
     <h3 style={{ whiteSpace: 'pre-line', textAlign: 'center' , fontWeight: '400', marginBottom:'10px', marginTop:'15px'}}>{question.text}</h3>
     <div style={{ display: 'flex', justifyContent: 'center' }}>
